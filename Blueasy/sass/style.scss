@@ -2,14 +2,100 @@
 @import 'vars';
 @import 'media-queries';
 
+body{
+  font-family: 'NotoRegular';
+}
+
+//HEADER
 .navbar{
-    background: #4bcaff;
+    background: #353f46;
+    font-family: 'NotoBold';
+    font-size: .875em;
+    padding: 2em 15em;
+}
+
+.logo{
+  color:#ffffff;
+  font-size: 30px;
+  font-family: NotoBold;
+  text-decoration: none;
+} 
+
+.letter-e{
+  color: #4bcaff;
+}
+.nav-item{
+  padding: 0 1em;
+}
+
+.nav-link{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: NotoBold;
+  padding: 0 .5em;
+    &:hover{
+      color: #4bcaff;
+      padding: .2em .7em;
+      border: .1em solid #4bcaff;
+  }
 }
 
 .image{
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background: url("../imgs/header.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 10em;
+}
+
+.image-text{
+  font-family: NotoLight;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-bg{
+  margin: .5em 0em;
+  line-height: 1.7em;
+  opacity: 0.9;
+  background: #353f46
+}
+
+//SERVICES
+.servicesSection{
+  background-color:#4bcaff;
+}
+
+//PORTFOLIO 
+.videoSection{
+  background-color:#515f67;
+}
+
+//VIDEO 
+.aboutSection{
+  width: 100%;
+  height: 100vh;
+  background: url("../imgs/camera.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+
+//TWITTER
+
+//ABOUT
+
+//TESTIMONIAL
+
+//CONTACT
+
+.contactSection{
+  width: 100%;
+  height: 100vh;
+  background: url("../imgs/contact.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
